@@ -5,20 +5,70 @@
 		<title>Контакты</title>
 	</head>
 	<body>
-		<h1>Контакты:</h1>
-
-		<a href="../../index.html" target="_self">Лионель Месси(главная)</a>
-		<a href="./page.html" target="_self">Биография</a>
-
-		<p>Более подробную информацию Вы можете найти на страницах в соцсетях:</p>
-
-		<a href="https://www.instagram.com/leomessi/" target="blank">
-		<img src="icons./i.png" alt="instagram"></a>
-
-		<a href="https://www.youtube.com/user/LeoMessi" target="blank">
-		<img src="icons./y.png" alt="YouTue"></a>
-		
-		<a href="https://www.facebook.com/leomessi/about/?ref=page_internal" target="blank">
-		<img src="icons./f.png" alt="facebook"></a>
+		<header>
+			<h1>Контакты:</h1>
+			<nav>
+				<ul>
+					<li>
+						<a href="../../index.html" target="_self">Лионель Месси(главная)</a>
+					</li>
+					<li>
+						<a href="./page.html" target="_self">Биография</a>
+					</li>	
+				</ul>
+			</nav>
+		</header>	
+			<nav>
+				<h2>Более подробную информацию Вы можете найти на страницах в соцсетях:</h2>
+				<ul>
+					<li>
+						<a href="https://www.instagram.com/leomessi/" target="blank">
+							<img src="icons./i.png" alt="instagram">
+						</a>
+					</li>
+					<li>
+						<a href="https://www.youtube.com/user/LeoMessi" target="blank">
+							<img src="icons./y.png" alt="YouTue">
+						</a>
+					</li>
+					<li>
+						<a href="https://www.facebook.com/leomessi/about/?ref=page_internal" target="blank">
+							<img src="icons./f.png" alt="facebook">
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<form method="post" action="https://mcslayer.com/hillel/post.php">
+				<fieldset>
+					<legend>Форма для обратной связи:</legend>
+					<p><label>
+						Имя:
+						<input type="text" name="Name" placeholder="Name" required>
+					</label></p>
+					<p><label>
+						Фамилия:
+						<input type="text" name="Surname" placeholder="Surname" required>
+					</label></p>
+					<p><label>
+						Мужской:
+						<input type="radio" name="sex" value="male">
+					</label>
+					<label>
+						Женский:
+						<input type="radio" name="sex" value="female">
+					</label></p>
+					<p><label>
+						Email:
+						<input type="email" name="email" required>
+					</label></p>
+					<textarea rows="6" cols="28"></textarea>	
+					<p><label>
+						Подтверждаю использование своих данных:
+						<input type="checkbox" name="rules">
+					</label></p>
+					<button type="button">Отправить</button>
+				</fieldset>
+									
+			</form>
     </body>
 </html>
